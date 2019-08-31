@@ -31,6 +31,22 @@ namespace ACM.BL
         public static int InstanceCount { get; set; }
 
         /// <summary>
+        /// Retrive one customer.
+        /// </summary>
+        public Customer Retrieve(int customerId)
+        {
+            return new Customer();
+        }
+
+        /// <summary>
+        /// Retrive all customers.
+        /// </summary>
+        public List<Customer> Retrieve()
+        {
+            return new List<Customer>();
+        }
+
+        /// <summary>
         /// Saves the current customer.
         /// </summary>
         /// <returns></returns>
